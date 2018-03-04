@@ -1,22 +1,6 @@
 package com.spider.https;
 
 
-//=======================================================
-//		          .----.
-//		       _.'__    `.
-//		   .--(^)(^^)---/!\
-//		 .' @          /!!!\
-//		 :         ,    !!!!
-//		  `-..__.-' _.-\!!!/
-//		        `;_:    `"'
-//		      .'"""""`.
-//		     /,  ya ,\\
-//		    //狗神保佑\\
-//		    `-._______.-'
-//		    ___`. | .'___
-//		   (______|______)
-//=======================================================
-
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.config.CookieSpecs;
 import org.apache.http.client.config.RequestConfig;

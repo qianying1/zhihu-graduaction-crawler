@@ -1,19 +1,4 @@
 package com.spider.entity;
-//=======================================================
-//		          .----.
-//		       _.'__    `.
-//		   .--(^)(^^)---/!\
-//		 .' @          /!!!\
-//		 :         ,    !!!!
-//		  `-..__.-' _.-\!!!/
-//		        `;_:    `"'
-//		      .'"""""`.
-//		     /,  ya ,\\
-//		    //狗神保佑\\
-//		    `-._______.-'
-//		    ___`. | .'___
-//		   (______|______)
-//=======================================================
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -35,4 +20,35 @@ public class FollowNexus {
     //Nothing
     private String name;
 
+    public String getToken_id() {
+        return token_id;
+    }
+
+    public void setToken_id(String token_id) {
+        this.token_id = token_id;
+    }
+
+    public String getToken_flower() {
+        return token_flower;
+    }
+
+    public void setToken_flower(String token_flower) {
+        this.token_flower = token_flower;
+    }
+
+    public String getFlower_name() {
+        return flower_name;
+    }
+
+    public void setFlower_name(String flower_name) {
+        this.flower_name = flower_name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

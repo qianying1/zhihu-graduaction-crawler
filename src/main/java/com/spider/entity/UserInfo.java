@@ -1,19 +1,4 @@
 package com.spider.entity;
-//=======================================================
-//		          .----.
-//		       _.'__    `.
-//		   .--(^)(^^)---/!\
-//		 .' @          /!!!\
-//		 :         ,    !!!!
-//		  `-..__.-' _.-\!!!/
-//		        `;_:    `"'
-//		      .'"""""`.
-//		     /,  ya ,\\
-//		    //狗神保佑\\
-//		    `-._______.-'
-//		    ___`. | .'___
-//		   (______|______)
-//=======================================================
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -122,5 +107,195 @@ public class UserInfo {
      */
     private String index_url;
 
+    public String getWeibo() {
+        return weibo;
+    }
 
+    public void setWeibo(String weibo) {
+        this.weibo = weibo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getBusiness() {
+        return business;
+    }
+
+    public void setBusiness(String business) {
+        this.business = business;
+    }
+
+    public String getEducation() {
+        return education;
+    }
+
+    public void setEducation(String education) {
+        this.education = education;
+    }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
+    public String getJob() {
+        return job;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
+    }
+
+    public String getHeadline() {
+        return headline;
+    }
+
+    public void setHeadline(String headline) {
+        this.headline = headline;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public String getAnswer() {
+        return answer;
+    }
+
+    public void setAnswer(String answer) {
+        this.answer = answer;
+    }
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public void setQuestion(String question) {
+        this.question = question;
+    }
+
+    public String getArticle() {
+        return article;
+    }
+
+    public void setArticle(String article) {
+        this.article = article;
+    }
+
+    public String getFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(String favorite) {
+        this.favorite = favorite;
+    }
+
+    public String getAgree() {
+        return agree;
+    }
+
+    public void setAgree(String agree) {
+        this.agree = agree;
+    }
+
+    public String getEdit() {
+        return edit;
+    }
+
+    public void setEdit(String edit) {
+        this.edit = edit;
+    }
+
+    public String getThanked() {
+        return thanked;
+    }
+
+    public void setThanked(String thanked) {
+        this.thanked = thanked;
+    }
+
+    public String getFollowing() {
+        return following;
+    }
+
+    public void setFollowing(String following) {
+        this.following = following;
+    }
+
+    public String getFollowers() {
+        return followers;
+    }
+
+    public void setFollowers(String followers) {
+        this.followers = followers;
+    }
+
+    public String getTopic() {
+        return topic;
+    }
+
+    public void setTopic(String topic) {
+        this.topic = topic;
+    }
+
+    public String getColumns() {
+        return columns;
+    }
+
+    public void setColumns(String columns) {
+        this.columns = columns;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public String getIndex_url() {
+        return index_url;
+    }
+
+    public void setIndex_url(String index_url) {
+        this.index_url = index_url;
+    }
 }

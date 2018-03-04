@@ -1,19 +1,4 @@
 package com.spider.entity;
-//=======================================================
-//		          .----.
-//		       _.'__    `.
-//		   .--(^)(^^)---/!\
-//		 .' @          /!!!\
-//		 :         ,    !!!!
-//		  `-..__.-' _.-\!!!/
-//		        `;_:    `"'
-//		      .'"""""`.
-//		     /,  ya ,\\
-//		    //狗神保佑\\
-//		    `-._______.-'
-//		    ___`. | .'___
-//		   (______|______)
-//=======================================================
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -53,5 +38,69 @@ public class UserBase{
     @Override
     public int hashCode() {
         return token.hashCode();
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getIsInit() {
+        return isInit;
+    }
+
+    public void setIsInit(String isInit) {
+        this.isInit = isInit;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getFrom_id() {
+        return from_id;
+    }
+
+    public void setFrom_id(String from_id) {
+        this.from_id = from_id;
+    }
+
+    public String getFrom_token() {
+        return from_token;
+    }
+
+    public void setFrom_token(String from_token) {
+        this.from_token = from_token;
+    }
+
+    public String getFrom_name() {
+        return from_name;
+    }
+
+    public void setFrom_name(String from_name) {
+        this.from_name = from_name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
